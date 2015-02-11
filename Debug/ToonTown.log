@@ -1,0 +1,25 @@
+﻿生成启动时间为 2015/1/15 21:36:38。
+     1>项目“C:\Users\ying\myftp\Code\OGL\ToonTown\ToonTown.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /Gm /EHsc /MTd /GS /Gy- /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /FR".\Debug\\" /Gd /TC /analyze- /errorReport:prompt RenderWorld.c
+         RenderWorld.c
+     1>RenderWorld.c(138): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>RenderWorld.c(176): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\ToonTown.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib opengl32.lib glu32.lib glaux.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\ToonTown.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\ToonTown.lib" /MACHINE:X86 /SAFESEH .\Debug\RESOURCE.res
+         .\Debug\GameSim.obj
+         .\Debug\LoadTGA.obj
+         .\Debug\MathDefs.obj
+         .\Debug\RenderWorld.obj
+         .\Debug\ToonTown.obj
+         .\Debug\ViewWnd.obj
+         ToonTown.vcxproj -> C:\Users\ying\myftp\Code\OGL\ToonTown\.\Debug\ToonTown.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Debug\ToonTown.bsc" .\Debug\GameSim.sbr .\Debug\LoadTGA.sbr .\Debug\MathDefs.sbr .\Debug\RenderWorld.sbr .\Debug\ToonTown.sbr .\Debug\ViewWnd.sbr
+     1>已完成生成项目“C:\Users\ying\myftp\Code\OGL\ToonTown\ToonTown.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.18
